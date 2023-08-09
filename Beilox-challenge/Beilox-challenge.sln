@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beilox-challenge", "Beilox-challenge.csproj", "{710FA39C-B13A-498E-B524-7C0FAEA9A4BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mecanism", "..\Mecanism\Mecanism.csproj", "{C0829A44-C720-488B-8CB2-234D1B600D28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{710FA39C-B13A-498E-B524-7C0FAEA9A4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710FA39C-B13A-498E-B524-7C0FAEA9A4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710FA39C-B13A-498E-B524-7C0FAEA9A4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710FA39C-B13A-498E-B524-7C0FAEA9A4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0829A44-C720-488B-8CB2-234D1B600D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0829A44-C720-488B-8CB2-234D1B600D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0829A44-C720-488B-8CB2-234D1B600D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0829A44-C720-488B-8CB2-234D1B600D28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F492054D-5A91-4E17-9C70-172D64EE0E95}
+	EndGlobalSection
+EndGlobal
