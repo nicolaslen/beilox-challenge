@@ -1,18 +1,17 @@
-﻿using System;
-using Mecanism.SecurityElements.Interfaces;
+﻿using Mecanism.SecurityElements.Interfaces;
 
 namespace Mecanism
 {
-	public class Mecanism
+	internal class Mecanism
 	{
         private readonly IEnumerable<ISecurityElement> _algorithms;
 
-        public Mecanism(IEnumerable<ISecurityElement> algorithms)
+        internal Mecanism(IEnumerable<ISecurityElement> algorithms)
 		{
             _algorithms = algorithms;
 		}
 
-        public string Encrypt(string text)
+        internal string Encrypt(string text)
         {
             foreach (var algorithm in _algorithms)
             {
@@ -21,7 +20,7 @@ namespace Mecanism
             return text;
         }
 
-        public string Decrypt(string text)
+        internal string Decrypt(string text)
         {
             foreach (var algorithm in _algorithms.Reverse())
             {

@@ -2,11 +2,11 @@
 
 namespace Mecanism.SecurityElements.Implementations
 {
-    public class ReplaceChars : ISecurityElement
+    internal class ReplaceChars : ISecurityElement
     {
         private readonly Func<int, char> _encryptFunc;
         private readonly Func<int, char> _decryptFunc;
-        public ReplaceChars(Func<int, char> encryptFunc, Func<int, char> decryptFunc)
+        internal ReplaceChars(Func<int, char> encryptFunc, Func<int, char> decryptFunc)
         {
             _encryptFunc = encryptFunc;
             _decryptFunc = decryptFunc;

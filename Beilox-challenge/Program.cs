@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-while (true)
+﻿while (true)
 {
     int value = 0;
     while (value != 1 && value != 2)
@@ -25,7 +23,6 @@ while (true)
     {
         output = mecanism.Decrypt(input);
     }
-
 
     Console.WriteLine("Resultado: " + output);
 }

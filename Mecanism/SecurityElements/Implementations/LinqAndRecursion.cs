@@ -1,8 +1,9 @@
-﻿using Mecanism.SecurityElements.Interfaces;
+﻿using System.Runtime.CompilerServices;
+using Mecanism.SecurityElements.Interfaces;
 
 namespace Mecanism.SecurityElements.Implementations
 {
-    public class LinqAndRecursion : ISecurityElement
+    internal class LinqAndRecursion : ISecurityElement
     {
         private readonly int times = 3;
 

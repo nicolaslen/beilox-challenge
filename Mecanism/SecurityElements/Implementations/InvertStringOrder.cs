@@ -2,7 +2,7 @@
 
 namespace Mecanism.SecurityElements.Implementations
 {
-    public class InvertStringOrder : ISecurityElement
+    internal class InvertStringOrder : ISecurityElement
     {
         public string Decrypt(string text)
         {
